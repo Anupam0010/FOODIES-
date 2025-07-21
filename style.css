@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar{
+    gap: 20px;
+    width: 100%;
+    background-color: whitesmoke !important;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    
+    
+    
+    
+    
+}
+.navbar-nav{
+    gap: 20px;
+}
+.nav-link{
+  font-weight: bold;
+  color: brown;
+}
+.main-btn{
+    background-color: brown;
+    text-align: center;
+    display: inline-block;
+    margin-top: 7px;
+}
+.main-btn:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.nav-item{
+    color: brown;
+}
+.main-sec{
+    display: flex;
+    
+    padding-top: 80px;
+   
+    
+}
+.box-1{
+    width: 50%;
+    height: 100vh;
+    background-color:white;
+    padding: 140px;
+    padding-top: 240px;
+}
+.box-1 p{
+    padding-top: 20px;
+    
+}
+.box-2{
+    width: 50%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+  
+
+   
+}
+.box-2 img {
+    width: 100%;
+ height: 100vh;
+    object-fit: cover;
+   margin-bottom: 120px;
+   
+    
+}
+.box-1 h3{
+    color: #381b1b;
+    font-weight: bold;
+    font-size: 40px;
+}
+.btn-grp{
+  
+   
+}
+.btn-1{
+    background-color: brown;
+    width: 126px;
+    height: 42px;
+    color: white;
+    font-weight: 500;
+    margin-right: 16px;
+
+}
+.btn-2{
+    width: 126px;
+    height: 42px;
+    color: black;
+    font-weight: 500;
+}
+.strips{
+    width: 100%;
+    height: 140px;
+    background-color: #96232e;
+  
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text p{
+    justify-content: space-evenly;
+}
+.stat h2{
+    color: white;
+    text-align: center;
+
+}
+.stat p{
+color: white;
+
+}
+.about-sec{
+    display: flex;
+    height: 50vh;
+}
+.about-box-1{
+    width: 50%;
+    height: 80vh;
+    margin-top: 60px;
+   
+  
+
+}
+.about-box-2{
+     width: 50%;
+    height: 80vh;
+     margin-top: 220px;
+    
+}
+.about-box-1 img{
+    width: 100%;
+     padding: 80px; 
+    margin: 40px;
+    border-radius: 12px;
+    display: block;
+  
+}
+.about-box-2 h4{
+    color: #381b1b;
+    font-size: 30px;
+ 
+    font-weight: 700;
+}
+.about-box-2 p{
+    color: #381b1b;
+}
+.about-box-2 button{
+
+    background-color:brown;
+   width: 126px;
+    height: 42px;
+    font-weight: bold;
+}
+.sec-4{
+    display: flex;
+    height: 100vh;
+    padding: 140px;
+    /* padding-top: 240px; */
+    margin-top: 120px;
+}
+.sec-4-box-1{
+    width: 50%;
+    height: 100vh;
+    margin-top: 120px;
+    
+}
+.sec-4-box-2{
+    width: 50%;
+    height: 100vh;
+
+}
+.sec-4-box-2 img{
+    
+    width: 100%;
+    margin-left: 80px;
+
+}
+.sec-4-box-1 h2{
+    color: #381b1b;
+    font-weight: 700;
+}
+.sec-4-box-1 p{
+    color: black;
+   
+    
+}
+.sec-4-box-1 p i{
+    color: #381b1b;
+    
+    
+}
+.sec-4-box-1 button{
+    
+    background-color:brown;
+   width: 126px;
+    height: 42px;
+    margin-left: 20px;
+}
+
+
+ .strips-2 img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.strips-4-img {
+ position: relative;
+}
+
+.strips-4-img h2 {
+ position: absolute;
+    top: 10%;
+ left: 30%;
+ /* transform: translate(-50%, -50%); */
+ color: #96232e;
+ text-align: center;
+ /* background-color: rgba(0, 0, 0, 0.5); optional for better contrast */
+ padding: 20px;
+ border-radius: 10px;
+ font-size: 30px;
+ line-height: 1.4;
+ max-width: 90%;
+}
+.strips-4-img button{
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    background-color: #96232e;
+     width: 126px;
+    height: 42px;
+    
+}
+.strips-4-img p{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    text-align: center;
+}
+.
+.strips-4-img img {
+ object-fit: cover;
+ height: 500px;
+ width: 100%;
+}
+.explore-foods-cards{
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+    margin-left: 160px;
+    margin-top: 10px;
+    
+    
+}
+.explore-foods-card-1 img{
+    height: 250px;
+    width: auto;
+    border-radius: 16px;
+}
+.explore-foods-card-2 img{
+    height: 250px;
+    width: auto;
+    border-radius: 16px;
+}
+.explore-foods-card-3 img{
+    height: 250px;
+    width: auto;
+    border-radius: 16px;
+}
+.explore-foods{
+    top: 20px;
+   
+    padding-top: 10px;
+}
+.explore-foods h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #381b1b;
+    padding-top: 120px;
+    
+}
+.explore-foods p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details-1 h2{
+    font-size: 20px;
+    padding-top: 20px;
+    color:#381b1b;
+
+}
+.details-2 h2{
+    font-size: 20px;
+    padding-top: 20px;
+color:#381b1b;
+
+}
+.details-3 h2{
+    font-size: 20px;
+    padding-top: 20px;
+color: #381b1b;
+}
+.price-box-1{
+    display: flex;
+    gap: 12px;
+     padding-left: 75px; 
+    
+   
+}
+.price-box-2{
+    display: flex;
+    gap: 12px;
+    padding-left: 75px;
+}
+.price-box-3{
+    display: flex;
+    gap: 12px;
+    padding-left: 75px;
+}
+.crossed-price-1{
+    text-decoration: line-through;
+    color: #7d7878;
+}
+.price-1{
+    color: brown;
+    font-weight: 600;
+}
+.order-btn button{
+    width: 126px;
+    height: 46px;
+    background-color: #96232e;
+    color: white;
+    font-weight: bold;
+    
+}
+.order-btn{
+    padding-left: 105px;
+}
