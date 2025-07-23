@@ -1,0 +1,273 @@
+@media (max-width: 1105px){
+body{
+    /* background-color: black; */
+   
+}
+.navbar-brand{
+margin-left: 10px;
+
+}
+.navbar-brand img{
+    height: 60px;
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+.main-btn{
+    margin-left: 20px;
+}
+.main-sec{
+   
+    
+    
+    position: relative;
+    display: block;
+}
+.box-1{
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    
+    
+}
+.box-1 h3{
+    text-align: center;
+}
+.box-1 p{
+    text-align: center;
+}
+.btn-grp{
+    margin-left: 40px;
+}
+.box-2{
+    width: 100%;
+    padding: auto;
+    margin-top: 40px;
+   
+}
+.box-2 img{
+    width: 100%;
+    
+    display: block;
+    width: 100%;
+        /* height: 120px; */
+       
+        height: 250px;
+        position: relative;
+        /* left: 0px; */
+        right: 30px;
+        height: 400px;
+        top: 150px;
+        
+    }
+    .about-sec{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 10px;
+
+    }
+    .about-box-1{
+        width: 100%;
+
+    }
+    .about-box-1 img{
+        width: 550px;
+        height: auto;
+        position: relative;
+        top: -160px;
+        right: 100px;
+    }
+    .about-box-2{
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        top: -480px;
+        height: 270px;
+    }
+    .about-box-2 h4{
+        text-align: center;
+    }
+    .about-box-2 p{
+        text-align: center;
+    }
+    .sec-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+
+    }
+    .sec-4-box-1{
+        width: 400px;
+        margin-top: 60px;
+        
+
+    }
+    .sec-4-box-1 h2{
+        text-align: center;
+        width: 100%;
+    }
+    .sec-4-box-1 p{
+        text-align: center;
+    }
+    .sec-4-box-2{
+        width: 100%;
+
+    }
+    .sec-4-box-2 img{
+        width: 450px;
+        height: auto;
+        position: relative;
+        right: 250px;
+    }
+    .strips-2{
+        margin-top: 160px;
+    }
+    .strips-4-img{
+        width: 100%;
+        height: auto;
+    }
+    .strips-4-img h2{
+        font-size: 16px;
+        margin-left: -30px;
+        margin-right: 60px;
+    }
+    .strips-4-img p{
+        margin-right: 60px;
+    }
+    
+   .strips-4-img button{
+    margin-top: 60px;
+    
+    margin-left: -30px;
+   }
+   .explore-foods-cards{
+    display: flex;
+    flex-direction: column;
+   }
+   .explore-foods-card-1{
+    margin-right: 50px;
+   }
+   .explore-foods-card-1 img{
+    margin-left: -150px;
+   }
+   .details-1{
+    margin-left: -140px;
+   }
+   .price-box-1{
+    margin-left: -10px;
+margin-bottom: 10px;    
+}
+  .order-btn{
+    margin-left: -30px;
+  }
+  .explore-foods-card-2{
+    margin-right: 50px;
+   }
+   .explore-foods-card-2 img{
+    margin-left: -150px;
+   }
+   .details-2{
+    margin-left: -140px;
+   }
+   .price-box-2{
+    margin-left: -10px;
+margin-bottom: 10px;    
+}
+  .order-btn{
+    margin-left: -30px;
+  }
+  .explore-foods-card-3{
+    margin-right: 50px;
+   }
+   .explore-foods-card-3 img{
+    margin-left: -150px;
+   }
+   .details-3{
+    margin-left: -140px;
+   }
+   .price-box-3{
+    margin-left: -10px;
+margin-bottom: 10px;    
+}
+  .order-btn{
+    margin-left: -30px;
+  }
+  .explore-foods{
+    width: 100%;
+    margin-top: -10px;
+  }
+  .explore-foods h2{
+    text-align: center;
+  }
+ 
+.explore-foods p{
+    text-align: center;
+  }
+  .footer-btn{
+    margin-left: -490px;
+  }
+  .footer-1{
+    margin-left: -30px;
+  }
+  /* .footer-2{
+    text-align: center;
+  }
+  
+ 
+  
+  .footer-2-text p{
+    margin-top: 40px;
+    background-color: green;
+   
+    
+  }
+  .footer-2-logo{
+    margin-top: -400px;
+
+  }
+  .final{
+    
+    margin-top: 80px;
+  } */
+   .footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-2-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-2-text p {
+    color: white;
+    margin: 5px 0;
+  }
+
+  .footer-2-logo {
+    margin-top: 15px;
+  }
+
+  .final {
+    margin-top: 20px;
+  }
+  .img-area img{
+    margin-left: -30px;
+  }
+}
+
+
+    
