@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
    
 }
 
@@ -43,6 +44,7 @@
 }
 .main-sec{
     display: flex;
+    flex-wrap: wrap;
     
     padding-top: 80px;
    
@@ -76,6 +78,7 @@
  height: 100vh;
     object-fit: cover;
    margin-bottom: 120px;
+   
    
     
 }
@@ -353,4 +356,121 @@ color: #381b1b;
 }
 .order-btn{
     padding-left: 105px;
+}
+.testmonial{
+    width: 100%;
+    height: 100vh;
+    background-color: #96232e;
+    
+}
+.text-area{
+    background-color: white;
+    width: 60%;
+    height: 250px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.testmonial h3{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20%;
+    
+    
+}
+.img-area img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    
+}
+.text-area p{
+    text-align: center;
+}
+.name{
+    color: #96232e;
+    font-weight: 700;
+}
+.footer{
+    width: 100%;
+    height: 700px;
+    
+}
+.footer-1{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    padding-top: 150px;
+}
+.footer-2{
+    width: 100%;
+    height: 300px;
+    background-color: #96232e;
+    text-align: center;
+   
+}
+.footer-1 h2{
+    text-align: center;
+    color: #381b1b;
+    padding-left: 60px;
+    font-weight: 600;
+}
+.footer-1 p{
+    text-align: center;
+    color: black;
+    padding-left: 80px;
+    
+}
+.footer-btn{
+    display: flex;
+text-align: center;
+padding-left: 550px;
+padding-top: 20px;
+
+
+gap: 20px;
+}
+.email-holder{
+    width: 350px;
+    height: 40px;
+   
+}
+.footer-btn button{
+    width: 126px;
+    height: 40px;
+    background-color: #96232e;
+    color: white;
+   
+}
+.footer-2-text{
+    display: flex;
+    gap: 40px;
+     padding: 60px; 
+    margin-left: 550px;
+    color: white;
+    flex-wrap: wrap;
+    
+    
+}
+.footer-2{
+    text-align: center;
+     gap: 20px; 
+}
+
+.footer-2-logo{
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -55px;
+    
+} 
+.final{
+    color: white;
+    margin-top: 125px;
 }
